@@ -1,0 +1,25 @@
+.acceuil__bouton {
+    background-color: green;
+    border-radius: 50px;
+    border: 3px double rgba(0, 0, 0, 0.515);
+    text-decoration: none;
+    color: #ffffff;
+    padding: 32px;
+    font-size: 3rem;
+    position: absolute;
+    left: 780px;
+    top: 400px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 100;
+  font-style: normal;
+  transition: border-radius 0.35s, top 0.4s, color 1s;
+}
+
+.acceuil__bouton:hover {
+  background-color: rgba(2, 171, 2, 0.708);
+  transition: border-radius 0.4s, top 0.4s ease-in-out, color 1s;
+  border-radius: 30px;
+  border: 2px dashed rgba(0, 0, 0, 0.515) ;
+  top: 385px;
+  color: rgb(195, 187, 29);
+}

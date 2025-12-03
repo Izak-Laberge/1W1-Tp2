@@ -1,0 +1,51 @@
+.formulaire {
+    
+}
+
+body{
+    background-color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.formulaire fieldset {
+    margin: 50px 0;
+    border-radius: 20px;
+    border: 1px dotted rgb(130, 51, 69);
+    background-color: rgba(85, 31, 46, 0.409);
+    width: 300px;
+    justify-content: center;
+    margin: 10px auto;
+    
+    
+}
+
+.formulaire__div {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    flex-direction: column;
+}
+
+.background-formulaire {
+    background-image: url(../image/manaachihtow-quiz-saison-1-les-renards-roux-question-numero-4-96497.jpg);
+    padding: 0;
+    max-width: 100%;
+    max-height: 100vh;
+    margin: 0;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Inscription {
+    display: flex;
+    font-size: 3rem;
+    color: white;
+    justify-content: center;
+}
+
+.input {
+    display: flex;
+    margin: 0 auto;
+    font-size: 20px;
+}

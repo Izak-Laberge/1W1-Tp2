@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Izak-Laberge-Tp2</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/formulaire.css" />
+    <link rel="stylesheet" href="css/bouton__acceuil.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Knewave&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ----------------------------------------- MENU BURGER ----------------------------------------------- -->
+
+    <div class="hero" id="acceuil">
+      <div class="hero__barresup">
+        <div class="navigation">
+          <label class="navigation__bouton" for="check-burger">
+            <img
+              src="https://s2.svgbox.net/hero-solid.svg?ic=menu&color=000"
+              width="32"
+              height="32"
+            />
+          </label>
+          <input type="checkbox" id="check-burger" />
+          <nav class="navigation__menu">
+            <a class="menu__a" href="#acceuil">ACCEUIL</a>
+            <a class="menu__a" href="#Inscription">Inscription</a>
+            <a class="menu__a" href="#trois">TROIS</a>
+            <a class="menu__a" href="#quatre">QUATRE</a>
+            <a class="menu__a" href="#cinq">CINQ</a>
+            <a class="menu__a" href="#six">SIX</a>
+            <a class="menu__a" href="#Addresse">ADDRESSE</a>
+          </nav>
+        </div>
+      </div>
+<!-- ================================================= PAGE HERO ================================================= -->
+      <header class="centre">
+        <h1 class="hero__titre">TP2</h1>
+        <h2 class="plus_un_size">Les renards :D</h2>
+        <h2 class="acceuil">Izak Laberge 582-1W1 – Mise en page Web</h2>
+        <h2 class="acceuil">Techniques d’intégration multimédia</h2>
+        <a class="acceuil__bouton" href="#Inscription">Inscription</a>
+      </header>
+    </div>
+<!-- ================================================= PAGE INSCRIPTION ================================================= -->
+    <div class="centre background-formulaire">
+      <section class="deux centre" id="Inscription">
+        <h1 class="Inscription">Inscription</h1>
+        <form class="formulaire">
+          <div class="formulaire__div">
+            <fieldset>
+              <label class="formulaire__label" for="txt-nom">Nom</label>
+              <input
+                class="formulaire__text"
+                id="txt-nom"
+                type="text"
+                placeholder="Entrez votre nom"
+              />
+            </fieldset>
+
+            <fieldset>
+              <label class="formulaire__label" for="txt-prenom">Prenom</label>
+              <input
+                class="formulaire__text"
+                id="txt-prenom"
+                type="text"
+                placeholder="Entrez votre prenom"
+              />
+            </fieldset>
+
+            <fieldset>
+              <label class="formulaire__label" for="txt-courriel"
+                >Courriel</label
+              >
+              <input
+                class="formulaire__text"
+                id="txt-courriel"
+                type="email"
+                placeholder="Entrez votre courriel"
+              />
+            </fieldset>
+          </div>
+
+          <fieldset>
+            <legend>Abonnement</legend>
+            <label>Renard Polaire <input type="radio" name="rad-abonnement" /></label>
+            <label
+              >Fennec <input type="radio" name="rad-abonnement"
+            /></label>
+            <label>Renard roux <input type="radio" name="rad-abonnement" /></label>
+          </fieldset>
+
+          <input class="input" type="submit" value="valider" />
+        </form>
+      </section>
+    </div>
+    <div>
+
+      <!-- ================================================= PAGE TABLEAU ================================================= -->
+      <section class="trois centre" id="trois">
+        <h1 class="titre">Types de renards et leurs environnement</h1>
+        
+        <table>
+          <thead class="tableau__head">
+            <tr >
+              <th>Espèce</th>
+              <th>Taille / Poids</th>
+              <th>Habitat</th>
+              <th>Alimentation</th>
+              <th>Particularité</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Renard roux</td>
+              <td>60-90 cm, ~7 kg</td>
+              <td>Forêts, campagnes, zones urbaines</td>
+              <td>Petits mammifères, oiseaux, fruits</td>
+              <td>Le plus répandu dans le monde</td>
+            </tr>
+            <tr>
+              <td>Fennec</td>
+              <td>20 cm, ~1.5 kg</td>
+              <td>Désert du Sahara</td>
+              <td>Insectes, plantes, petits rongeurs</td>
+              <td>Oreilles très grandes pour dissiper la chaleur</td>
+            </tr>
+            <tr>
+              <td>Renard polaire</td>
+              <td>50-70 cm, ~3-9 kg</td>
+              <td>Zones arctiques</td>
+              <td>Lemmings, poissons, charognes</td>
+              <td>Pelage blanc en hiver, brun en été</td>
+            </tr>
+            <tr>
+              <td>Renard gris</td>
+              <td>80-110 cm, ~4-5 kg</td>
+              <td>Amérique du Nord et Centrale</td>
+              <td>Fruits, petits animaux</td>
+              <td>Peut grimper aux arbres</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+    <div>
+      <section class="quatre centre" id="quatre">QUATRE</section>
+    </div>
+    <div>
+      <section class="cinq centre" id="cinq">CINQ</section>
+    </div>
+    <div>
+      <section class="six centre" id="six">SIX</section>
+    </div>
+
+    <!-- ------------------------------------------- FOOTER ---------------------------------------------- -->
+    <div>
+      <footer class="centre">
+        <div>
+          <section class="addresse centre" id="Addresse">ADDRESSE</section>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

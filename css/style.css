@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+section {
+    height: 100vh;
+}
+h1,h2,h3{
+    margin: 0;
+}
+
+
+.acceuil {
+    margin-bottom: 30px;
+}
+
+
+.hero {
+    padding: 0;
+    max-width: 100%;
+    max-height: 100vh;
+    margin: 0;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    
+}
+
+.hero > .centre {
+    background-color: rgba(12, 99, 16, 0.233);
+}
+
+.hero__barresup {
+    background-color: rgba(25, 68, 12, 0.404);
+    width: 100%;
+    height: 75px;
+}
+
+.hero__titre {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.plus_un_size {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.hero__menu{
+    position: fixed;
+    width: 600px;
+    top: 20px;
+    right: 30px;
+}
+
+.menu__a {
+}
+
+.hero__menu a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgba(8, 112, 5, 0.466);
+    border-radius: 5px 5px;
+    text-decoration: none;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+    display: flex;
+    
+}
+
+.centre {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: rgba(255, 255, 255, 0.301);
+    height: 100vh;
+    color: white;
+}
+
+body > div:nth-of-type(1) {
+  background: linear-gradient(to top, transparent 80%, rgb(3, 37, 2) 100%),
+    url(../image/0f9f104d15e5af864f430346b3075bf6-1546889811.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+body > div:nth-of-type(2) {
+    background: linear-gradient(to top, transparent 78%, rgb(93, 56, 8) 100%),
+    url(../image/manaachihtow-quiz-saison-1-les-renards-roux-question-numero-4-96497.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+body > div:nth-of-type(3) {
+    background-color: rgb(155, 82, 94);
+}
+
+.titre {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+table { 
+    padding: 25px;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+.tableau__head {
+    padding: 20px;
+}
+tbody tr:nth-of-type(odd) {
+    background-color: rgba(248, 157, 12, 0.411);
+}
+
+th {
+    border: 1px solid rgb(255, 0, 0);
+    margin-bottom: 20px;
+}
+
+td {
+    padding: 40px;
+    border: 1px solid rgb(255, 157, 0);
+}
+
+body > div:nth-of-type(4) {
+    background-color: rgb(114, 50, 60);
+}
+body > div:nth-of-type(5) {
+    background-color: rgb(82, 32, 39);
+}
+body > div:nth-of-type(6) {
+    background-color: rgb(39, 12, 16);
+}
+body > div:nth-of-type(7) {
+    color: white;
+    background-color: rgb(46, 12, 20);
+}
+
+body > div:nth-of-type(8) {
+    color: white;
+    background-color: rgb(10, 2, 4);
+}
+

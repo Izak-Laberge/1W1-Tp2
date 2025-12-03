@@ -1,0 +1,37 @@
+#check-burger {
+    display: none;
+}
+
+.navigation{
+    position: fixed;
+    top: 20px;
+    right:20px;
+    text-align: right;
+}
+
+.navigation__bouton{
+
+}
+
+.navigation__menu{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.644);
+    transform: translateX(150%);
+    transition: transform 0.356s linear;
+    height: 35vh;
+    
+}
+
+.navigation__menu a {
+    color: black;
+    display: block;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.396);
+    padding: 4px;
+    margin: 5px;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#check-burger:checked ~ .navigation__menu {
+transform: translateX(0);
+}
