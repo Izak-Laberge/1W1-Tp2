@@ -17,7 +17,30 @@ h1,h2,h3{
 
 
 .acceuil {
-    margin-bottom: 30px;
+
+padding: 8px;
+font-size: 24px;
+border-radius: 8px;
+background-color: rgba(5, 77, 21, 0.507);
+flex-basis: 485px;
+flex-shrink: 0;
+width: 700px;
+display: flex;
+text-decoration: none;
+color: white;
+
+}
+
+.github {
+    text-decoration: none;
+    color: orange;
+}
+
+.acceuil__div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
 }
 
 
