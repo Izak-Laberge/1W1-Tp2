@@ -18,7 +18,7 @@
     background-color: rgba(0, 0, 0, 0.644);
     transform: translateX(150%);
     transition: transform 0.356s linear;
-    height: 35vh;
+    height: 37vh;
     
 }
 
@@ -35,3 +35,4 @@
 #check-burger:checked ~ .navigation__menu {
 transform: translateX(0);
 }
+
